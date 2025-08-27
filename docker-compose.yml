@@ -3,6 +3,6 @@ services:
     build:
       context: .
     volumes:
-      - ./docs:/usr/src/app/docs
+      - ./portfolio:/usr/src/app/portfolio
     ports:
       - 4000:4000

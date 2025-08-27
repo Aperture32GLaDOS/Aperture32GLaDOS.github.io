@@ -1,0 +1,8 @@
+services:
+  dev-environment:
+    build:
+      context: .
+    volumes:
+      - ./docs:/usr/src/app/docs
+    ports:
+      - 4000:4000

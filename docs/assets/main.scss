@@ -1,0 +1,40 @@
+---
+---
+
+@import 'minima';
+
+$line-color: #363b3d;
+
+body {
+  background-color: #191b1c;
+  color: #dddad6;
+}
+
+.site-header {
+  border-top: 5px solid #766e61;
+  border-bottom: 1px solid $line-color;
+}
+
+.site-footer {
+  border-top: 1px solid $line-color;
+}
+
+.site-title, .site-title:visited {
+  color: #beb9b0;
+}
+
+.site-nav .page-link {
+  color: #dddad6;
+}
+
+a {
+  color: #3d95e5;
+}
+
+a:visited {
+  color: #6dafeb;
+}
+
+a:hover {
+  color: #dddad6;
+}
